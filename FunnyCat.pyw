@@ -7,8 +7,6 @@ import os
 __author__ = ('Olivier-Pascal BAKASANDA')
 __version__=('python 3.5')
 
-#os.spawnl(os.P_DETACH, 'some_long_running_command')
-
 #Select 
 button = win32api.GetKeyState(0x04) #Capture the click of the middle mouse button 
 
